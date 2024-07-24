@@ -1,1 +1,28 @@
+@charset "utf-8";
+/* CSS Document */
 
+/* Universal Styles */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url('https://screamer2.com/codecademy/dasmoto_arts_crafts/images/1000_F_72a.png');
+    background-size: cover;
+    opacity: 0.9;
+}
+h1, h2, h3, p {
+  font-family: Helvetica;
+  color: red;
+}
+p {
+  color: black;
+  text-align: left;
+  /* margin: 15px 35%; */
+  font-size: 16px;
+  font-weight: ;
+}
+
+
+ 
