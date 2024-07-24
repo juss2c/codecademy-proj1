@@ -12,17 +12,117 @@ body {
     background-size: cover;
     opacity: 0.9;
 }
+header {
+  background-image: url("https://screamer2.com/codecademy/dasmoto_arts_crafts/images/abstract_background_clr_fit2.png"); 
+  /*url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg"); */
+  border-bottom: 3px solid rgb(184, 175, 175) !important  ; 
+  /* text-align: center; */
+  background-size: contain;
+  background-position: center;
+  font-size: 100px;
+  color: Khaki;
+  height: 116px; width: 1691px; overflow: hidden; 
+  font-weight: bold;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  /* z-index: -1; */
+  box-shadow: 0 0 25px 0 black;
+}  
+
+    
+}
 h1, h2, h3, p {
   font-family: Helvetica;
-  color: red;
+  color:;
 }
 p {
   color: black;
   text-align: left;
   /* margin: 15px 35%; */
   font-size: 16px;
-  font-weight: ;
+  font-weight:300;
 }
 
+nav {
+  height: 116px;
+  /* Can add a background color to the nav below */
+  /* background: rgb(20, 20, 20);
+  color: rgb(220, 220, 220); */
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0; 
+ /* z-index: 30; */
+}
+
+.nav-items,
+.overview,
+.account {
+  display: flex;
+
+}
+.overview {
+  margin-right: 4rem;
+  
+}
+  nav li {
+    list-style: none;
+    margin: 0 0.5rem;
+  }
+  nav a {
+    text-decoration: none;
+    color: rgb(220, 220, 220);
+  }
+  nav a:hover {
+    color: #a0ebfd;
+  }
+  nav a::after {
+    content: "";
+    display: block;
+    height: 3px;
+    background: #a0ebfd;
+    width: 0%;
+    transition: all ease-in-out 300ms;
+  }
+  nav a:hover::after {
+    width: 100%;
+  }
+
+.nav-items {
+  color: rgb(240, 230, 140);
+display: flex;
+font-size: 100px;
+font-weight: 300;
+z-index: 20;
+}
+
+/* Lays the logo and navs out in a row */
+ul,
+.imglogo {
+display: flex;
+}
+
+/* sets width of each nav item */
+/* Don't delete below */
+li {
+  color: #ed0ce2;
+  border: 0px solid #8f4d07;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  /*font-weight: 300;*/
+  /* text-transform: uppercase; */
+  display: inline-block;
+  /*width: 95px;  */
+  justify-content: space-between;
+  margin: 0 0.5rem;
+  list-style: none;
+  }
+
+ /*li:hover {
+  color: #f28908;
+} */
 
  
